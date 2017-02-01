@@ -1,0 +1,8 @@
+{
+  "scripts":{
+    "pdf":
+      "pandoc -s -S --toc -N -c epub/ProGit.css --chapters -o _OUTPUT_PDF/report.pdf 00_title/title.txt --bibliography=99_refs/refs.json 01/01.md 02/02.md 50_appendix_A/50.md 99_refs/references.md",
+
+    "html":"pandoc -s -S --toc  -N -t html5 --template \"_layout\" -o _OUTPUT_HTML/report.html 00_title/title.txt --bibliography=99_refs/refs.json 01/01.md 02/02.md 50_appendix_A/50.md 99_refs/references.md"
+  }
+}
