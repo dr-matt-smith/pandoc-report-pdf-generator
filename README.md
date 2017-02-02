@@ -17,7 +17,7 @@ It should be a simple 5-minute, 'choose all the defaults' installation.
 
 ## Using this project report template ##
 
-Everyhthing is build from the command line using a simple Composer.json script 'pdf'. So to generate your report PDF at the command line just enter:
+Everyhthing is built from the command line using a simple Composer.json script 'pdf'. So to generate your report PDF at the command line just enter:
 
     > composer pdf
 
